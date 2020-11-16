@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  /*background-color: #282c34;*/
-  background-image: url('./Images/image2.jpg');
+  background-image: url('./image2.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,14 +10,15 @@
 
 .jumbotron{
   max-width: 100%;
-  background-color: rgba(22, 19, 19, 0.85);
+  background-color: rgba(22, 19, 19, 0.8);
   color:whitesmoke;
   text-shadow: .5px .5px aliceblue;
   text-align: center;
 }
 
 .img-circle{
-  background-image: url('./Images/image3.jpg');
+  width: 100%;
+  border-radius: 50%;
 }
 
 .navbar{
@@ -26,7 +26,7 @@
 }
 
 h4, h5 {
-  color: rgb(109, 106, 106);
+  color: rgb(131, 128, 128);
 }
 
 .container-flex {
@@ -44,8 +44,8 @@ h4, h5 {
  
 }
 
-#html {
-  background-image: ;
+.btn {
+  margin: 2%;
 }
 
 
