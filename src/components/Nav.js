@@ -1,32 +1,24 @@
 import React from 'react';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 
-
-
-function Nav() {
-    return(
-<nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a className="navbar-brand" id="siteName">Jeremy Stegall </a>
-          <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li className="nav-item active">
-              <a className="nav-link" href = "mailto:jeremy.stegall77@gmail.com?subject = Feedback&body = Message">Contact <span class="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://www.linkedin.com/in/jeremy-stegall-6a0a90b3/" target="_blank">LinkedIn</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://github.com/JRStegall" target="_blank">GitHub</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+function Navigate(){
+    return (
+<Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+  <Navbar.Brand href="#home">Jeremy Stegall</Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link href = "mailto:jeremy.stegall77@gmail.com?subject = Feedback&body = Message">Contact</Nav.Link>
+      <Nav.Link href="https://www.linkedin.com/in/jeremy-stegall-6a0a90b3/" target="_blank">LinkedIn</Nav.Link>
+      <Nav.Link href="https://github.com/JRStegall" target="_blank">Github</Nav.Link>
+      
+    </Nav>
+    
+  </Navbar.Collapse>
+</Navbar>
     )
 }
 
-
-export default Nav;
+export default Navigate;
