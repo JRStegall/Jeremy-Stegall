@@ -17,20 +17,20 @@ function Second() {
                 <div className="col-lg-4 col-4"><img src="./images/react.jpeg" alt="" /></div>
             </div>
 
-            <a href="../resume.pdf" download="../resume.pdf" ><button className="btn btn-primary"><i className="fa fa-download"></i> Download Resume</button></a>
+            <a href="./public/resume" download="./public/resume/resume.pdf" ><button className="btn btn-primary"><i className="fa fa-download"></i> Download Resume</button></a>
 
             <div className="container">
                 <div className="row">
 
                     <div className="col-sm-12 col-lg-6 seeit">
                         <h3>Projects</h3>
-                        
+                        To be added
                     </div>
                         
                     <div className="col-sm-12 col-lg-6 seeit">
 
 
-                        <h3>Education</h3>
+                        <h3>Coding Education</h3>
 
                         <ul>
                             <li><h4>DigitalCrafts- Atlanta, GA</h4></li>
