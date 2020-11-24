@@ -1,8 +1,9 @@
 {
   "name": "my_profile",
+  "homepage": "http://jeremyrstegall.com/profile/",
   "version": "0.1.0",
   "engines": {
-    "node" : "15.1.0",
+    "node": "15.1.0",
     "npm": "6.x"
   },
   "private": true,
@@ -18,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
