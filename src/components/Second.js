@@ -24,7 +24,11 @@ function Second() {
 
                     <div className="col-sm-12 col-lg-6 seeit">
                         <h3>Projects</h3>
-                        To be added
+                        <p>Find recording, rehearsal, production and dance studios to fit your needs and budget</p>
+                        <a href="http://mystudiosearch.com">Sessions</a>
+                        <br/>
+                        <p>Search for any movie you can think of</p>
+                        <a href="https://gifted-kepler-e3c935.netlify.app">Movie Search</a>
                     </div>
                         
                     <div className="col-sm-12 col-lg-6 seeit">
