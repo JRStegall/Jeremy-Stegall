@@ -1,5 +1,5 @@
 import React from 'react';
-
+import js from '../Images/js.jpg';
 
 
 
@@ -16,7 +16,7 @@ function Main(){
             <br />
         <div className="row">        
                 <div className="col-12 col-lg-3 ">
-                    <img className="img-circle" src="my_profile/public/Images/js.jpg" alt="" title="Mushroom Road"/>    
+                    <img className="img-circle" src={js} alt="" title="Mushroom Road"/>    
                 </div>
                 <div className="col-sm-12 col-lg-3">
                     <p>I am a life long musician and performer who thrives in collaborative environments that challenge my intellect and creativity.  

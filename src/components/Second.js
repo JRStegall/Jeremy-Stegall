@@ -1,5 +1,13 @@
 import React from 'react';
 import pdf from '../resume/resume.pdf';
+import html from '../Images/html.jpeg';
+import bootstrap from '../Images/bootstrap.jpeg';
+import css from '../Images/css.jpeg';
+import javascript from '../Images/javascript.jpeg';
+import node from '../Images/node.jpeg';
+import react from '../Images/react.jpeg';
+import post from '../Images/post.jpeg';
+import sqlz from '../Images/sqlz.jpeg';
 
 function Second() {
     return (
@@ -8,14 +16,17 @@ function Second() {
 
             <div className="row skills">
 
-                <div className="col-lg-4 col-4"><img src="./Images/html.jpeg" alt="" /></div>
-                <div className="col-lg-4 col-4"><img src="./Images/css.jpeg" alt="" /></div>
-                <div className="col-lg-4 col-4"><img src="./Images/bootstrap.jpeg" alt="" /></div>
+                <div className="col-lg-4 col-4"><img src={html} alt="" /></div>
+                <div className="col-lg-4 col-4"><img src={css} alt="" /></div>
+                <div className="col-lg-4 col-4"><img src={bootstrap} alt="" /></div>
             </div>
             <div className="row skills">
-                <div className="col-lg-4 col-4"><img src="./Images/javascript.jpeg" alt="" /></div>
-                <div className="col-lg-4 col-4"><img src="./images/node.jpeg" alt="" /></div>
-                <div className="col-lg-4 col-4"><img src="./images/react.jpeg" alt="" /></div>
+                <div className="col-lg-4 col-4"><img src={javascript} alt="" /></div>
+                <div className="col-lg-4 col-4"><img src={node} alt="" /></div>
+                <div className="col-lg-4 col-4"><img src={react} alt="" /></div>
+            </div>
+            <div className="row skills">
+                <div className="col-lg-4 col-4"><img src={post} alt="" /></div>
             </div>
 
             <a href={pdf} download="./public/resume/resume.pdf" ><button className="btn btn-primary"><i className="fa fa-download"></i> Download Resume</button></a>
