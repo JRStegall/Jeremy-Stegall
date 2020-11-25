@@ -1,4 +1,5 @@
 import React from 'react';
+import pdf from '../resume/resume.pdf';
 
 function Second() {
     return (
@@ -12,23 +13,26 @@ function Second() {
                 <div className="col-lg-4 col-4"><img src="./Images/bootstrap.jpeg" alt="" /></div>
             </div>
             <div className="row skills">
-                <div className="col-lg-4 col-4"><img src="./images/javascript.jpeg" alt="" /></div>
+                <div className="col-lg-4 col-4"><img src="./Images/javascript.jpeg" alt="" /></div>
                 <div className="col-lg-4 col-4"><img src="./images/node.jpeg" alt="" /></div>
                 <div className="col-lg-4 col-4"><img src="./images/react.jpeg" alt="" /></div>
             </div>
 
-            <a href="./public/resume" download="./public/resume/resume.pdf" ><button className="btn btn-primary"><i className="fa fa-download"></i> Download Resume</button></a>
+            <a href={pdf} download="./public/resume/resume.pdf" ><button className="btn btn-primary"><i className="fa fa-download"></i> Download Resume</button></a>
 
             <div className="container">
                 <div className="row">
 
                     <div className="col-sm-12 col-lg-6 seeit">
                         <h3>Projects</h3>
-                        <p>Find recording, rehearsal, production and dance studios to fit your needs and budget</p>
-                        <a href="http://mystudiosearch.com">Sessions</a>
+                        <p>Find recording, rehearsal, production and dance studios to fit your needs and budget with:
+                        <a href="http://mystudiosearch.com" target="_blank" rel="noreferrer">Sessions</a></p>
                         <br/>
-                        <p>Search for any movie you can think of</p>
-                        <a href="https://gifted-kepler-e3c935.netlify.app">Movie Search</a>
+                        <p>Search for any movie you can think of on:
+                        <a href="https://gifted-kepler-e3c935.netlify.app" target="_blank" rel="noreferrer">Movie Search</a></p>
+                        <br/>
+                        <p>Keep up with the latest trends in cryptocurrency with:
+                        <a href="https://cyptoappp.netlify.app/" target="_blank" rel="noreferrer">CryptoApp</a></p>
                     </div>
                         
                     <div className="col-sm-12 col-lg-6 seeit">

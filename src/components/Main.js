@@ -16,10 +16,10 @@ function Main(){
             <br />
         <div className="row">        
                 <div className="col-12 col-lg-3 ">
-                    <img className="img-circle" src='./Images/js.jpg' alt="" title="Mushroom Road"/>    
+                    <img className="img-circle" src="my_profile/public/Images/js.jpg" alt="" title="Mushroom Road"/>    
                 </div>
                 <div className="col-sm-12 col-lg-3">
-                    <p>I am a life long musician and performer who thrives in environments that challenge my intellect and creativity.  
+                    <p>I am a life long musician and performer who thrives in collaborative environments that challenge my intellect and creativity.  
                     &nbsp;Looking for flexible career paths that incorporate both, I discovered web design & development 
                     and began teaching myself HTML, CSS, Bootstrap and JavaScript. &nbsp;I then decided to further my education by attending DigitalCrafts Full-Stack software development program. &nbsp;I am currently a GDOT constrcution project manager.</p>
                 </div>
