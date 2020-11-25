@@ -29,7 +29,7 @@ function Main(){
                       and with the advent of online tutorials and coding bootcamps, I began to see breaking into this ever growing industry to be more attainable.</p>
                 </div>
                 <div className="col-lg-3">
-                    <p>Aside from the lucartive and near-limitless career prospects that the tech world has to offer, 
+                    <p>Aside from the lucrative and near-limitless career prospects that the tech world has to offer, 
                       my main goal is to continue to learn and grow as I evolve into a well rounded full-stack developer while maintaining a healthy work/life balance.</p>
                 </div>
         </div>

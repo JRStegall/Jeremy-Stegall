@@ -36,13 +36,13 @@ function Second() {
 
                     <div className="col-sm-12 col-lg-6 seeit">
                         <h3>Projects</h3>
-                        <p>Find recording, rehearsal, production and dance studios to fit your needs and budget with:
+                        <p>Find recording, rehearsal, production and dance studios to fit your needs and budget with:&nbsp;
                         <a href="http://mystudiosearch.com" target="_blank" rel="noreferrer">Sessions</a></p>
                         <br/>
-                        <p>Search for any movie you can think of on:
+                        <p>Search for any movie you can think of on: &nbsp;
                         <a href="https://gifted-kepler-e3c935.netlify.app" target="_blank" rel="noreferrer">Movie Search</a></p>
                         <br/>
-                        <p>Keep up with the latest trends in cryptocurrency with:
+                        <p>Keep up with the latest trends in cryptocurrency with:&nbsp;
                         <a href="https://cyptoappp.netlify.app/" target="_blank" rel="noreferrer">CryptoApp</a></p>
                     </div>
                         
