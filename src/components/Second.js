@@ -70,12 +70,10 @@ function Second() {
                         
                         <ul>
                             <li><h4>DigitalCrafts- Atlanta, GA</h4></li>
-                            <p>DigitalCrafts is Atlanta's premiere software development bootcamp and has been educating coders since 2015. </p>
-                            <ul>
-                                <li><p>UI/UX, Full-stack Engineering, HTML5, CSS, Bootstrap, JavaScript, REACT, Express, Node.js, PostreSQL</p>
-                                </li>
-
-                            </ul>
+                            <p><em>DigitalCrafts is Atlanta's premiere software development bootcamp and has been educating coders since 2015.</em> </p>
+                           
+                                <p>UI/UX, Full-stack Engineering, HTML5, CSS, Bootstrap, JavaScript, REACT, Express, Node.js, PostreSQL</p>
+                                
                             <li><h4>Other Educational Avenues</h4></li>
                             <p>Linkedin Learning, Codecademy, FreeCodeCamp.org, W3schools.com, WDN Web Docs, Learn-js.org, Udemy.com, Lynda.com</p>
                         </ul>
