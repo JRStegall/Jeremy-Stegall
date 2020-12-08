@@ -1,7 +1,7 @@
 # This is my profile
+This project is built with HTML5, CSS, Bootstrap and React.
 
-
-
+## https://jeremy-stegall.herokuapp.com/
 
 
 ## Getting Started with Create React App
