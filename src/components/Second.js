@@ -39,25 +39,29 @@ function Second() {
                         <div className="row">
                             <div className="col-12 proj">
                         <p>Find recording, rehearsal, production and dance studios to fit your needs and budget with:&nbsp;
-                        <a href="http://mystudiosearch.com" target="_blank" rel="noreferrer">Sessions</a></p>
+                        <a href="http://mystudiosearch.com" target="_blank" rel="noreferrer">Sessions</a>
+                        <br/><sub>Built with HTML5, CSS, Bootstrap, React, JavaScript and Postgres.</sub></p>
                         <p><a href="https://github.com/JRStegall/Studio_Search">github (front end repository)</a></p>
                         <p><a href="https://github.com/JRStegall/Studio_Search_backend">github (back end repository</a></p>
                         </div>
                         <br/>
                         <div className="col-12 proj">
-                        <p>React Admin Page Prototype: <a href="https://eloquent-nobel-d2ebde.netlify.app/#/" target="_blank" rel="noreferrer">Admin Page</a></p>
+                        <p>React Admin Page Prototype: <a href="https://eloquent-nobel-d2ebde.netlify.app/#/" target="_blank" rel="noreferrer">Admin Page</a>
+                        <br/><sub>Built with React.</sub></p>
                         <p><a href="https://github.com/JRStegall/ReactAdmin">github Repository</a></p>
                         </div>
                         <br/>
                         <div className="col-12 proj">
                         <p>Search for any movie you can think of on: &nbsp;
-                        <a href="https://gifted-kepler-e3c935.netlify.app" target="_blank" rel="noreferrer">Movie Search</a></p>
+                        <a href="https://gifted-kepler-e3c935.netlify.app" target="_blank" rel="noreferrer">Movie Search</a>
+                        <br/><sub>Built with React.</sub></p>
                         <p><a href="https://github.com/JRStegall/React-Movie-Search">github Repository</a></p>
                         </div>
                         <br/>
                         <div className="col-12 proj">
                         <p>Keep up with the latest trends in cryptocurrency with:&nbsp;
-                        <a href="https://cyptoappp.netlify.app/" target="_blank" rel="noreferrer">CryptoApp</a></p>
+                        <a href="https://cyptoappp.netlify.app/" target="_blank" rel="noreferrer">CryptoApp</a>
+                        <br/><sub>Built with HTML5, CSS, Bootstrap and JavaScript API's.</sub></p>
                         <p><a href="https://github.com/JRStegall/cryptoAppp">github Repository</a></p>
                         </div>
                         </div>
