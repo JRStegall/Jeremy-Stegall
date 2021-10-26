@@ -1,17 +1,24 @@
-import React from 'react';
-import Navigate from './components/Nav';
-import Main from './components/Main';
-import Second from './components/Second';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import Navigate from "./components/Nav";
+import Main from "./components/Main";
+import Projects from "./components/Projects";
+import Education from "./components/Edu";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Navigate/>
-      <Main/>
-      <Second/>
+      <BrowserRouter>
+        <Navigate />
+        <Switch>
+          <Route path="/proj" component={Projects} />
+          <Route path="/edu" component={Education} />
+          <Route path="/" component={Main} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

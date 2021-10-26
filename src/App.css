@@ -1,56 +1,11 @@
 .App {
   text-align: center;
-  background-image: url('./image2.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-}
-
-.jumbotron{
+  background-image: url("./image2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   max-width: 100%;
-  background-color: rgba(22, 19, 19, 0.8);
-  color:whitesmoke;
-  text-shadow: .5px .5px aliceblue;
-  text-align: center;
-}
-
-.img-circle{
-  width: 100%;
-  border-radius: 50%;
-}
-
-.navbar{
-  font-family:  fantasy;
-}
-
-h4, h5 {
-  color: rgb(131, 128, 128);
-}
-
-.container-flex {
-  width: 100%;
-  background-color: gainsboro;
-  text-shadow: .5px .5px aliceblue;
-}
-
-.skills {
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 5px 0;
-  max-width: 95%;
-  margin: auto;
- 
-}
-
-.btn {
-  margin: 2%;
-}
-
-.proj{
-  border: 2px solid steelblue;
-  margin-bottom: 2%;
+  height: auto;
 }
 
 .App-logo {
@@ -85,5 +40,99 @@ h4, h5 {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+a {
+  color: greenyellow;
+}
+
+/********************NAV*******************/
+.navbar {
+  font-family: fantasy;
+}
+
+/*******************MAIN*******************/
+.main {
+  max-width: 100%;
+  background-color: rgba(22, 19, 19, 0.8);
+  color: whitesmoke;
+  text-shadow: 0.5px 0.5px aliceblue;
+  text-align: center;
+}
+
+.img-circle {
+  width: 100%;
+  border-radius: 50%;
+}
+
+h4,
+h5 {
+  color: rgb(131, 128, 128);
+}
+
+/**********************PROJECTS**************/
+
+/* .container-flex {
+  width: 100%;
+  background-color: gainsboro;
+  text-shadow: 0.5px 0.5px aliceblue;
+}
+
+.skills {
+  background-color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 5px 0;
+  max-width: 95%;
+  margin: auto;
+} */
+
+.react {
+  height: 150px;
+}
+
+.btn {
+  margin: 2%;
+}
+
+.p {
+  background-color: rgba(165, 152, 152, 0.8);
+  max-width: 80%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.proj1 {
+  background-image: url("./Images/flyer6.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: auto;
+  max-height: auto;
+}
+
+.proj2 {
+  background-image: url("./Images/studio.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/************************EDU***************/
+
+.container {
+  padding-bottom: 20%;
+  padding-top: 2%;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    max-height: 100%;
   }
 }
