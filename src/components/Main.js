@@ -1,14 +1,5 @@
 import React from "react";
 import js from "../Images/js.jpg";
-import pdf from "../resume/resume.pdf";
-import html from "../Images/html.jpeg";
-import bootstrap from "../Images/bootstrap.jpeg";
-import css from "../Images/css.jpeg";
-import javascript from "../Images/javascript.jpeg";
-// import node from "../Images/node.jpeg";
-import react from "../Images/react.jpeg";
-// import post from "../Images/post.jpeg";
-// import sqlz from '../Images/sqlz.jpeg';
 
 function Main() {
   return (
@@ -55,39 +46,6 @@ function Main() {
           </p>
         </div>
       </div>
-      <br />
-
-      <div className="row skills">
-        <div className="col-lg-4 col-4">
-          <img src={html} alt="" />
-        </div>
-        <div className="col-lg-4 col-4">
-          <img src={css} alt="" />
-        </div>
-        <div className="col-lg-4 col-4">
-          <img src={bootstrap} alt="" />
-        </div>
-      </div>
-      <div className="row skills">
-        <div className="col-lg-4 col-4">
-          <img src={javascript} alt="" />
-        </div>
-        {/* <div className="col-lg-4 col-4"><img src={node} alt="" /></div> */}
-        <div className="col-lg-4 col-4 react">
-          <img src={react} alt="" />
-        </div>
-      </div>
-      <div className="row skills">
-        {/* <div className="col-lg-4 col-4">
-          <img src={post} alt="" />
-        </div> */}
-      </div>
-
-      <a href={pdf} download="./public/resume/resume.pdf">
-        <button className="btn btn-primary">
-          <i className="fa fa-download"></i> Download Resume
-        </button>
-      </a>
     </div>
   );
 }

@@ -5,6 +5,7 @@ import Navigate from "./components/Nav";
 import Main from "./components/Main";
 import Projects from "./components/Projects";
 import Education from "./components/Edu";
+import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/edu" component={Education} />
           <Route path="/" component={Main} />
         </Switch>
+        <Footer />
       </BrowserRouter>
     </div>
   );
