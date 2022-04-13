@@ -65,7 +65,7 @@ function Second() {
                 </div>
               </div>
               <br />
-              <div className="col-12 proj">
+              <div className="col-12 proj3">
                 <div className="p">
                   <p>
                     React Admin Page Prototype: <br />
@@ -88,7 +88,7 @@ function Second() {
               </div>
               <br />
 
-              <div className="col-12 proj">
+              <div className="col-12 proj4">
                 <div className="p">
                   <p>
                     Search for any movie you can think of on: &nbsp;
@@ -112,7 +112,7 @@ function Second() {
               </div>
               <br />
 
-              <div className="col-12 proj">
+              <div className="col-12 proj5">
                 <div className="p">
                   <p>
                     Keep up with the latest trends in cryptocurrency with:&nbsp;

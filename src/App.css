@@ -81,12 +81,13 @@ h5 {
 }
 
 .proj1 {
-  background-image: url("./Images/flyer6.jpeg");
+  background-image: url("./Images/bandlogo.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: auto;
   max-height: auto;
+  margin-bottom: 2%;
 }
 
 .proj2 {
@@ -98,6 +99,36 @@ h5 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 2%;
+}
+
+.proj3 {
+  background-image: url("./Images/admin.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: auto;
+  max-height: auto;
+  margin-bottom: 2%;
+}
+
+.proj4 {
+  background-image: url("./Images/marquee.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: auto;
+  max-height: auto;
+  margin-bottom: 2%;
+}
+.proj5 {
+  background-image: url("./Images/crypto.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: auto;
+  max-height: auto;
+  margin-bottom: 2%;
 }
 
 /************************EDU***************/
